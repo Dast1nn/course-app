@@ -26,9 +26,8 @@
 - TailwindCSS (or your chosen styling solution)
 
 **Backend:**
-- Node.js / Express (assumed)
+- Nest.js / Express (assumed)
 - Swagger UI
-- PostgreSQL / MongoDB (depending on your setup)
 ---
 
 ### 📦 Installation
@@ -37,7 +36,7 @@
 
 1. Navigate to the backend folder:
    ```bash
-   cd courseapp-backend
+   cd coursea-app-backend
    ```
 2. Install dependencies:
    ```bash
@@ -49,7 +48,7 @@
    ```
 4. Open Swagger UI:
    ```
-   http://localhost:PORT/api-docs
+   http://localhost:4000/api
    ```
 
 #### Frontend
@@ -84,7 +83,7 @@
 
 Visit Swagger UI to explore and test all backend routes:  
 ```
-http://localhost:PORT/api-docs
+http://localhost:4000/api
 ```
 
 ---
@@ -95,23 +94,3 @@ http://localhost:PORT/api-docs
 - Use Redux DevTools Extension for debugging.
 - To test protected routes, use role-based authentication via token headers.
 
----
-
-### 📤 Deployment
-
-To push the project to GitHub:
-
-1. Initialize Git (if not done yet):
-   ```bash
-   git init
-   ```
-2. Commit all files:
-   ```bash
-   git add .
-   git commit -m "Initial commit for CourseApp"
-   ```
-3. Push to GitHub:
-   ```bash
-   git remote add origin https://github.com/Dast1nn/course-app.git
-   git push -u origin main
-   ```
