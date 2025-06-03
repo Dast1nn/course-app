@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Dastan",
+    "email": "nurlykhandastan@gmail.com",
+    "password": "Nurlykhan_17",
+    "role": "admin",
+    "id": "f018d322-3b22-4a72-b6a2-82fca1b08a72"
+  },
+
+  {
+    "name": "Nurba",
+    "email": "2120006@mail.ru",
+    "password": "Qwerty1234",
+    "role": "user",
+    "id": "d1ba26e6-278e-4c3d-bab9-256776a6d731"
+  },
+  {
+    "name": "Baiga",
+    "email": "fafasta@gmail.com",
+    "password": "qwerty1234",
+    "role": "admin",
+    "id": "6bb5c0b8-f051-4e23-894e-81b7e7c139b7"
+  },
+  {
+    "name": "ADMIN",
+    "email": "admin@email.com",
+    "password": "admin123",
+    "role": "admin",
+    "id": "262359b9-71d4-4cd3-a88e-ace2ae6b19f2"
+  }
+]
